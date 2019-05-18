@@ -1,0 +1,18 @@
+{
+    "data": "./data/penn",
+    "model": "UNI",
+    "emsize": 200,
+    "nhid": 200,
+    "nlayers": 2,
+    "lr": 3.0,
+    "clip": 0.25,
+    "epochs": 4,
+    "batch_size": 20,
+    "bptt": 20,
+    "dropout": 0.0,
+    "tied": true,
+    "seed": 1111,
+    "cuda": false,
+    "log_interval": 200,
+    "save": "./model_params/penn-word/pytorchmodel"
+}
