@@ -79,13 +79,13 @@ cd into the folder rnn_torch
 For training, use
 
 ```bash
-python main.py --hps-file hps/penn.json --model SRN-TANH
-python main.py --hps-file hps/penn.json --model MI
-python main.py --hps-file hps/penn.json --model M
-python main.py --hps-file hps/penn.json --model O2
-python main.py --hps-file hps/penn.json --model UNI
-python main.py --hps-file hps/penn.json --model GRU
-python main.py --hps-file hps/penn.json --model LSTM
+python main_ptb.py --hps-file hps/penn.json --model SRN-TANH
+python main_ptb.py --hps-file hps/penn.json --model MI
+python main_ptb.py --hps-file hps/penn.json --model M
+python main_ptb.py --hps-file hps/penn.json --model O2
+python main_ptb.py --hps-file hps/penn.json --model UNI
+python main_ptb.py --hps-file hps/penn.json --model GRU
+python main_ptb.py --hps-file hps/penn.json --model LSTM
 ```
 
 
