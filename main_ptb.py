@@ -8,7 +8,7 @@ import torch
 import torch.nn as nn
 from torch.autograd import Variable
 
-import data
+import data_ptb as data
 from model_torch import RNNModel
 
 ###############################################################################

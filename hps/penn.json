@@ -1,9 +1,9 @@
 {
     "data": "./data/penn",
     "model": "UNI",
-    "emsize": 200,
-    "nhid": 200,
-    "nlayers": 1,
+    "emsize": 100,
+    "nhid": 100,
+    "nlayers": 2,
     "lr": 5.0,
     "clip": 0.25,
     "epochs": 100,
